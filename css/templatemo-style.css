@@ -45,7 +45,7 @@ p {
 }
 
 .imgPlace {
-	position:absolute;
+	position:relative;
 	top:3%;
 	left:3%;
 }
