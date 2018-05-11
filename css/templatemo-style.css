@@ -238,7 +238,7 @@ p {
 @media screen and (max-width: 576px) { 
     .cb-slideshow li div h3 { font-size: 80px }
 	
-	.tm-btn-subscribe {
+	.tm-btn-enter {
 		margin-top: 20px;
 	}
 }
