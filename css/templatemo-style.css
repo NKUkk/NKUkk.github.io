@@ -46,8 +46,8 @@ p {
 
 .imgPlace {
 	position:absolute;
-	top:50px;
-	left:150px;
+	top:10%;
+	left:10%;
 }
 
 .cb-slideshow-text-container {
