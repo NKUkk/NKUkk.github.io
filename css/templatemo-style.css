@@ -93,7 +93,7 @@ p {
 .contact_email {
 	color: #FFFFFF;
 }
-.tm-btn-subscribe {
+.tm-btn-enter {
 	background-color: #006699;
 	border-radius: .5rem;
     border-color: white;
@@ -101,6 +101,7 @@ p {
     font-weight: 300;
     font-size: 1.4rem;
     cursor: pointer;
+	folat: right;
 }
 
 .tm-btn-subscribe:hover {
