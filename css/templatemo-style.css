@@ -45,9 +45,9 @@ p {
 }
 
 .imgPlace {
-	position:relative;
-	top:500px;
-	left:200px;
+	position:absolute;
+	top:50px;
+	left:150px;
 }
 
 .cb-slideshow-text-container {
