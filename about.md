@@ -2,6 +2,7 @@
 layout: page
 title: 关于我 
 ---
+{% include pagination.html %}
 
 一个没有什么技术的准开发工作者：）
 <p>
@@ -26,5 +27,6 @@ title: 关于我
 <p> 
 
 
-{% include comments.html %}
+{% include pagination.html %}
+
 
