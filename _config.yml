@@ -1,20 +1,19 @@
 # Basic
-title: nkkk
+title: KK's Blog
 subtitle: 个人站
-description: welcome
+description: Welcome~
 # 头像里面的标题
-avatarTitle: kk
+avatarTitle: Sunshine
 # 头像里面的描述
-avatarDesc: 无
+avatarDesc: 在读大学生
 url: "http://www.xiaobaozi.xyz"
 
 
 # Social
 social:
     weibo: 5761346728 
-    github: inkpgk
-    # twitter: 
-    mail: 无
+    github: NKUkk
+    mail: 775787333@qq.com
 
 
 
@@ -30,12 +29,9 @@ textColor: #FF0000
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
 cover_color: clear
 
-# The blog button should not be removed.
-blog_button:
-    title: 博客主页
-
 # Navigation buttons in the front page.s
 nav:
+    - {title: 博客主页, description: archive, url: '/index'}
     - {title: 所有文章, description: archive, url: '/archive'}   
     - {title: 标签, description: tags, url: '/tags'}      
     - {title: 关于我, description: about, url: '/about'}      
