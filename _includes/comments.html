@@ -1,25 +1,17 @@
-<div class="comment"></div>
-
-    <!--Leancloud 操作库:-->
+<section class="post-comments">
+<!--Leancloud 操作库:-->
     <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <!--Valine 的核心代码库:-->
+    <!--Valine 的核心代码库-->
     <script src="./dist/Valine.min.js"></script>
-   <script>
+    <script>
         new Valine({
             // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
             av: AV, 
-            enable:true
-            app_id: r6f67wcQQkfXsAxlnUPXlrCk-gzGzoHsz,
-            app_key: rmIgCTdCiasCp02MnLJ43W7r,
-            placeholder: 随便说点什么吧！
-            verify: false #验证码
-            notify: false #评论回复提醒
-            pageSize: 10
+            el: '.comment',
+            app_id: r6f67wcQQkfXsAxlnUPXlrCk-gzGzoHsz, // 这里填写上面得到的APP ID
+            app_key: r6f67wcQQkfXsAxlnUPXlrCk-gzGzoHsz, // 这里填写上面得到的APP KEY
+            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!', // 留言框占位提示文字
         });
     </script>
 
-
-   <!-- <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid="+'{{ site.comment.uyan }}'></script>-->
-
-
-
+</section>
