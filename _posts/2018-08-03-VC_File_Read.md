@@ -22,23 +22,23 @@ tag: C++
 
 
 ### 代码   
-
-#include<iostream><br>
-#include<string><br>
-#include<fstream><br>
-using namespace std;<br>
-void main(){<br>
-	ifstream in("1.txt");<br>
-	string filename;<br>
-	string line;<br>
-
-	if (in){<br>
-		while (getline(in, line))<br>
-			cout << line << endl;<br>
-	}<br>
+```
+#include<iostream>
+#include<string>
+#include<fstream>
+using namespace std;
+void main(){
+	ifstream in("1.txt");
+	string filename;
+	string line;
+	if (in){
+		while (getline(in, line))
+			cout << line << endl;
+	}
 	else<br>
-		cout << "no such file."<<endl;<br>
-}<br>
+		cout << "no such file."<<endl;
+}
+```
 
 ### 原文件内容
 ![](/images/posts/VC_File_Read/txt.jpg)
@@ -52,7 +52,7 @@ void main(){<br>
 
 
 ### 代码
-
+```
 #include<iostream>
 #include<string>
 #include<fstream>
@@ -74,6 +74,7 @@ int main(){
 		cout << "no such file." << endl;
 	return 0;
 } 
+```
 
 ### 输出结果
 ![](/images/posts/VC_File_Read/result1.jpg)
