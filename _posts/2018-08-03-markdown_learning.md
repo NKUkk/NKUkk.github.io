@@ -2,7 +2,7 @@
 layout: post
 title: markdown_learning
 date: 2018-08-03 
-tag: C++ 
+tag: 技术 
 --- 
 
 # 测试
