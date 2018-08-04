@@ -77,7 +77,7 @@ int main(){
 ```
 
 ### 输出结果
-![](/images/posts/VC_File_Read/result1.jpg)
+![](/images/posts/VC_File_Read/result2.jpg)
 
 ### 变形题2
 读取1.txt的内容写入2.txt
