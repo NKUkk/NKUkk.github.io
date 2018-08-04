@@ -36,6 +36,14 @@ nav:
     - {title: 标签, description: tags, url: '/tags'}      
     - {title: 关于我, description: about, url: '/about'}      
     
+Valine:
+  enable:true
+  app_id: 'r6f67wcQQkfXsAxlnUPXlrCk-gzGzoHsz',
+  app_key: 'rmIgCTdCiasCp02MnLJ43W7r',
+  placeholder: 随便说点什么吧！
+  verify: false #验证码
+  notify: false #评论回复提醒
+  pageSize: 10
 
 # Pagination
 gems: [jekyll-paginate,jekyll-sitemap]
