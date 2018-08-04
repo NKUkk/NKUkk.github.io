@@ -21,21 +21,6 @@ layout: default
 </article>
 
 {% include new-old.html %}
-<!--{% include comments.html %}-->
-<!--Leancloud 操作库:-->
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <!--Valine 的核心代码库-->
-    <script src="https://github.com/panjunwen/Valine/tree/master/dist/Valine.min.js"></script>
-    <script src="https://cdnjs.cat.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-        new Valine({
-            // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
-            av: AV, 
-            el: '.comment',
-            app_id: 'r6f67wcQQkfXsAxlnUPXlrCk-gzGzoHsz', // 这里填写上面得到的APP ID
-            app_key: 'rmIgCTdCiasCp02MnLJ43W7r', // 这里填写上面得到的APP KEY
-            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!', // 留言框占位提示文字
-        });
-    </script>
-    <p>33</p>
+{% include comments.html %}
+
 
