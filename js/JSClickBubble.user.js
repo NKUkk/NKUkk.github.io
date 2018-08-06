@@ -1,12 +1,3 @@
-// ==UserScript==
-// @name         鼠标点击冒泡
-// @namespace    https://djzhao.js.org
-// @version      0.1
-// @description  一个用JS写的鼠标左击特效
-// @description  一些Emoji 😀😃😄😁😆😅😂🤣☺😊😚😙😗😘😍😌😉🙃🙂😇😋😜😝😛🤑🤗🤓😎🤡🤠😖😣☹🙁😕😟😔😞😒😏😫😩😤😠😡😶😐😑😯😦😥😢😨😱😳😵😲😮😧🤤😭😪😴🙄🤔😬🤥🤐💩👺👹👿😈🤕🤒😷🤧🤢👻💀☠👽👾🤖🎃😺😸😹🙏👏🙌👐😾😿🙀😽😼😻
-// @author       一碗单炒饭
-// @include      /[a-zA-z]+://[^\s]*/
-// @run-at       document_start
 // ==/UserScript==
 onload = function() {
     var click_cnt = 0;
@@ -25,43 +16,43 @@ onload = function() {
         clearInterval(anim);
         switch (++click_cnt) {
             case 10:
-                $elem.innerText = "OωO";
+                $elem.innerText = "富强";
                 break;
             case 20:
-                $elem.innerText = "(๑•́ ∀ •̀๑)";
+                $elem.innerText = "民主";
                 break;
             case 30:
-                $elem.innerText = "(๑•́ ₃ •̀๑)";
+                $elem.innerText = "文明";
                 break;
             case 40:
-                $elem.innerText = "(๑•̀_•́๑)";
+                $elem.innerText = "和谐";
                 break;
             case 50:
-                $elem.innerText = "（￣へ￣）";
+                $elem.innerText = "自由";
                 break;
             case 60:
-                $elem.innerText = "(╯°口°)╯(┴—┴";
+                $elem.innerText = "平等";
                 break;
             case 70:
-                $elem.innerText = "૮( ᵒ̌皿ᵒ̌ )ა";
+                $elem.innerText = "公正";
                 break;
             case 80:
-                $elem.innerText = "╮(｡>口<｡)╭";
+                $elem.innerText = "法治";
                 break;
             case 90:
-                $elem.innerText = "( ง ᵒ̌皿ᵒ̌)ง⁼³₌₃";
+                $elem.innerText = "爱国";
                 break;
             case 100:
+		$elem.innerText = "敬业";
+                break;
             case 101:
+			$elem.innerText = "诚信";
+                break;
             case 102:
-            case 103:
-            case 104:
-            case 105:
-                $elem.innerText = "(ꐦ°᷄д°᷅)";
+		$elem.innerText = "友善";
                 break;
             default:
-		// 手动更换下面这行双引号里面的内容 如"😀"
-                $elem.innerText = "❤";
+		// 手动更换下面这行双引号里面的内容 如"😀
                 break;
         }
         $elem.style.fontSize = Math.random() * 10 + 8 + "px";
