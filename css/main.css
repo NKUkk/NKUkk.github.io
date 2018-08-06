@@ -1422,4 +1422,12 @@ nav a {
   -moz-transform: translateY(-3px);
   transform: translateY(-3px);
 }
+
+.title_box{ 
+width: 100%; 
+overflow: hidden; 
+display: flex; 
+}
+
+.title_box input{width: 100%;} 
 /*导航按钮-end*/
