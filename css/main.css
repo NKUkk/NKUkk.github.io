@@ -382,6 +382,7 @@ img::-moz-selection {
     position: relative;
     z-index: 500;
     width: 940px;
+    align-items: center;
     margin: 0 auto; }
 
   .content-wrapper {
