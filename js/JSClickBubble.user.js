@@ -14,41 +14,41 @@ onload = function() {
         $elem.style.left = (x - 10) + "px";
         $elem.style.top = (y - 20) + "px";
         clearInterval(anim);
-        switch (++click_cnt) {
-            case 10:
+        switch (++click_cnt%24) {
+            case 1:
                 $elem.innerText = "富强";
                 break;
-            case 20:
+            case 3:
                 $elem.innerText = "民主";
                 break;
-            case 30:
+            case 5:
                 $elem.innerText = "文明";
                 break;
-            case 40:
+            case 7:
                 $elem.innerText = "和谐";
                 break;
-            case 50:
+            case 9:
                 $elem.innerText = "自由";
                 break;
-            case 60:
+            case 11:
                 $elem.innerText = "平等";
                 break;
-            case 70:
+            case 13:
                 $elem.innerText = "公正";
                 break;
-            case 80:
+            case 15:
                 $elem.innerText = "法治";
                 break;
-            case 90:
+            case 17:
                 $elem.innerText = "爱国";
                 break;
-            case 100:
+            case 19:
 		$elem.innerText = "敬业";
                 break;
-            case 101:
-			$elem.innerText = "诚信";
+            case 21:
+		$elem.innerText = "诚信";
                 break;
-            case 102:
+            case 23:
 		$elem.innerText = "友善";
                 break;
             default:
