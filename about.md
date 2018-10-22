@@ -3,7 +3,7 @@ layout: page
 title: 关于我 
 ---
 
-<embed src="//music.163.com/style/swf/widget.swf?sid=559668792&type=2&auto=1&width=278&height=32" width="298" height="52"  allowNetworking="all"></embed>
+
 一个没有什么技术的准开发工作者：）
 <p>
 大学几年学到了一点点皮毛，最近想复习一下大学的知识，借这个博客记录一下自己复习的过程吧。
