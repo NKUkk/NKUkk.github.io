@@ -45,3 +45,36 @@ layout: default
            
   {% include pagination.html %}
 </div>
+
+<!--修改-->
+
+
+<div class="main-question-list hidden">
+  
+  <ol class="question-list">
+    {% for question in paginator.questions %}
+    <li>
+      <h2 class="question-list__question-title question-title"><a href="{{ question.url }}" title="访问 {{ question.title }}">{{ question.title }}</a></h2>
+      <p class="excerpt">{{ question.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
+      <div class="question-list__meta">        
+        <time datetime="{{question.date | date: date_to_xmlschema}}" class="question-list__meta--date date">
+          <img src="/images/calendar.png" width="20px" /> 
+          {{ question.date | date: "%F"}}</time> 
+        <div class = "tag-img-icon">
+          <img src="/images/tag-icon.svg" width="20px" /> 
+        </div>
+        <a href="/tags">
+          <div class = "question-list-icon-mate">
+            <span class="question-list__meta--tags-right">{{ question.tags }}</span>
+          </div>
+          <div class = "question-list-small-mate">
+          <a class="btn-border-small" href={{ question.url }}>阅读全文 » </a>
+          </div>
+      </div>
+      <hr class="question-list__divider" />
+    </li>
+    {% endfor %}
+  </ol>   
+           
+  {% include pagination.html %}
+</div>
