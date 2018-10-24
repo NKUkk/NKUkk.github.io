@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: question
 title: VC++读取文件内容并逐行输出
 date: 2018-08-03 
 tag: C++ 
