@@ -2,16 +2,16 @@
 layout: default
 ---
 
-<article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="post-header">
-    <div class="post-meta">
-      <time datetime="{{page.date | date: date_to_xmlschema}}" itemprop="datePublished" class="post-meta__date date">{{page.date | date: "%F"}}</time>
-      <span class="post-meta__tags tags"></span>
+<article class="post-container question-container post-container--single question-container--single" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header question-header">
+    <div class="post-meta question-meta">
+      <time datetime="{{page.date | date: date_to_xmlschema}}" itemprop="datePublished" class="post-meta__date date question-meta__date date">{{page.date | date: "%F"}}</time>
+      <span class="post-meta__tags question-meta__tags tags"></span>
     </div>
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h1 class="post-title question-title">{{ page.title }}</h1>
   </header>
 
-  <section class="post">
+  <section class="post question">
     {{ content }}
   </section>
   
