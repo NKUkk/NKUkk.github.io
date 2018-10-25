@@ -34,7 +34,7 @@ cover_color: clear
 nav:
     - {title: 博客主页, description: archive, url: '/index'}
     - {title: 所有文章, description: archive, url: '/archive'}
-    #- {title: 题库, description: questionbank, url: '/questionbank'}
+    - {title: 题库, description: questionbank, url: '/questionbank'}
     - {title: 标签, description: tags, url: '/tags'}      
     - {title: 关于我, description: about, url: '/about'}      
 
