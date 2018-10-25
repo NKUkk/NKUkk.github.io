@@ -1,6 +1,6 @@
 ---
-layout: question
-title: VC++读取文件内容并逐行输出
+layout: questions
+title: aaa
 date: 2018-08-03  
 ---   
 
