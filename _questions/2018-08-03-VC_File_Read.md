@@ -1,5 +1,5 @@
 ---
-layout: questions
+layout: post
 title: aaa
 date: 2018-08-03  
 ---   
