@@ -62,17 +62,21 @@ public class Main{
 ```
 
 
+### 结果图
+
+![](/images/posts/Java_String_subString/result.jpg)
+
 
 ### 知识点
 
-    没什么知识点，想明白就好。
+    没什么知识点，想明白就好。（可能是我没想到呢:)）
     
 	
 ### 知识扩充
 
-    **substring()方法：**  
+   **substring()方法：**  
 	
-	语法：  
+   语法：  
 	
 ```
 public String substring(int beginIndex)
@@ -82,16 +86,16 @@ public String substring(int beginIndex)
 public String substring(int beginIndex, int endIndex)	
 ```
 
-    参数：  
+   参数：  
 	
-	beginIndex -- 起始索引（包括）, 索引从 0 开始。  
-	endIndex -- 结束索引（不包括）。  
+   beginIndex -- 起始索引（包括）, 索引从 0 开始。  
+   endIndex -- 结束索引（不包括）。  
 	
-	返回值：  
+   返回值：  
 	
-	子字符串。
+   子字符串。
 	
-	实例：
+   实例：
 	
 ```
 public class Test {
@@ -107,20 +111,22 @@ public class Test {
 }
 ```
 
-    执行结果：
+   执行结果：
 	
 ```
 返回值 :runoob.com
 返回值 :runoob
 ```
 
-    **类方法对同类中别的方法的调用**  
+   **类方法对同类中别的方法的调用**  
 	
-	① 调用类方法可以直接调用：一开始本题中的FindSon()方法前面没有添加static修饰符，报错为：
+   ① 调用类方法可以直接调用：一开始本题中的FindSon()方法前面没有添加static修饰符，报错为：
 
 ![](/images/posts/Java_String_subString/error.jpg)
 	
-	② 调用实例方法必须通过创建实例来调用
+   ② 调用实例方法必须通过创建实例来调用
+
+
 
 
 
