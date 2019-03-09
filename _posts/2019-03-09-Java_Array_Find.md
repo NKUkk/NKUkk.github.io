@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 layout: post
 title: 剑指offer—二维数组查找
@@ -70,5 +69,5 @@ Java中判断二维数组是否为空，要判断三种情况：
 
 
 
-转载请注明原地址:[KK's Blog](http://www.xiaobaozi.xyz)
+转载请注明原地址:[KK's Blog](http://.inankai.top)
 
