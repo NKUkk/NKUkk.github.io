@@ -75,12 +75,13 @@ public class Solution {
 ### 知识点
 
 
-    方法一：
-    使用indexOf()方法查找空格，返回一个整数。若有空格，返回的是空格的索引，没有空格返回-1。因此如果返回的不是-1，则字符串中有空格，使用replace()方法替换indexOf()返回的索引处的空格即可，然后使用indexOf()从当前位置继续查找，替换已有的索引值。
-	要注意使用while循环，因为字符串中可能含有多个空格。
+   方法一：
+     使用indexOf()方法查找空格，返回一个整数。若有空格，返回的是空格的索引，没有空格返回-1。因此如果返回的不是-1，则字符串中有空格，
+     使用replace()方法替换indexOf()返回的索引处的空格即可，然后使用indexOf()从当前位置继续查找，替换已有的索引值。
+     要注意使用while循环，因为字符串中可能含有多个空格。
     
-	方法二：
-	要熟练掌握String类的charAt()方法以及转换成String类的方法String.valueOf()、toString()
+   方法二：
+     要熟练掌握String类的charAt()方法以及转换成String类的方法String.valueOf()、toString()
 	
 ### 知识扩充
 
@@ -155,7 +156,8 @@ public class Solution {
 	 Number.toString();//"function Number() { [native code] }"
 	 ```
 	 
-	 此外，数字类型的toString()方法可以接收表示转换基数(radix)的可选参数，如果不指定此参数，转换规则将是基于十进制。同样，也可以将数字转换为其他进制数(范围在2-36)
+	 此外，数字类型的toString()方法可以接收表示转换基数(radix)的可选参数，如果不指定此参数，转换规则将是基于十进制。
+	 同样，也可以将数字转换为其他进制数(范围在2-36)
      ```
 	 var n = 17;
      n.toString();//'17'
