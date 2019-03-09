@@ -87,4 +87,4 @@ int main(){
 应该还能出几个变形题，比如：不定读取确定写入，确定读取不定写入，不定读取写入……
 <p> </p>
 
-转载请注明原地址:[KK's Blog](http://www.xiaobaozi.xyz)
+转载请注明原地址:[KK's Blog](http://www.inankai.top)
