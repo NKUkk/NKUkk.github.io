@@ -68,6 +68,6 @@ Java中判断二维数组是否为空，要判断三种情况：
 3、二维数组是否为{{}}，即array.length=1&&array[0].length==0的情况；
 
 
-<br> </br>
+<br/>
 转载请注明原地址:[KK's Blog](http://.inankai.top)
-
+</br>
