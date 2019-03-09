@@ -69,5 +69,5 @@ Java中判断二维数组是否为空，要判断三种情况：
 
 
 <br/>
-转载请注明原地址:[KK's Blog](http://.inankai.top)
+转载请注明原地址:[KK's Blog](http://www.inankai.top)
 </br>
