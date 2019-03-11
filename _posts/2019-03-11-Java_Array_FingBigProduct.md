@@ -124,7 +124,7 @@ public class Main{
     public static void main(String[] args){
         /*Scanner scan=new Scanner(System.in);
         String S=scan.nextLine();
-		String[] s=S.split(" ");
+	String[] s=S.split(" ");
         String[] s=S.split(" ");
         int[] a=new int[s.length];
         for(int i=0;i<s.length;i++)
@@ -182,7 +182,7 @@ public class Main{
     public static void main(String[] args){
         /*Scanner scan=new Scanner(System.in);
         String S=scan.nextLine();
-		String[] s=S.split(" ");
+	String[] s=S.split(" ");
         int[] a=new int[s.length];
         for(int i=0;i<s.length;i++)
         	a[i]=Integer.parseInt(s[i]);
@@ -261,6 +261,7 @@ public class Main{
 ```
 
 
+<br/>
 <br/>
 转载请注明原地址:[KK's Blog](http://www.xiaobaozi.xyz)
 
