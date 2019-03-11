@@ -202,7 +202,7 @@ public class Main{
 
 ### 等待许久的结果
 
-![](/images/posts/Java_Array_FingBigProduct/result4.jpg)
+![](/images/posts/Java_Array_FingBigProduct/result.jpg)
 
 
 ### 代码解释
