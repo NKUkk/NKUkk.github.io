@@ -28,7 +28,7 @@ tag: Java
 
   那就要比较一下最小数、次小数、最大数的乘积和最大的那三个数的乘积的大小了。  
   
-  OK，思路有了，开始写吧  
+  OK，思路有了，开始写吧！  
 
 
 ### 代码   
@@ -74,23 +74,23 @@ public class Main{
 
 ### 结果
 
-    输入一下，给出的一个例子（3 1 2 4），看看输出是不是24.
+   输入一下，给出的一个例子（3 1 2 4），看看输出是不是24.
 	
 ![](/images/posts/Java_Array_FingBigProduct/result1.jpg)
 
-    美滋滋，可以啦。那再试试有负数的看看行不行，现编一个（-1 -1 2 3 10），看看结果是不是60.
+   美滋滋，可以啦。那再试试有负数的看看行不行，现编一个（-1 -1 2 3 10），看看结果是不是60.
 	
 ![](/images/posts/Java_Array_FingBigProduct/result2.jpg)
 
-    OK了！美美地去原题处提交，结果：
+   OK了！美美地去原题处提交，结果：
 
 ![](/images/posts/Java_Array_FingBigProduct/result3.jpg)
 
-    emmmmm这个我想的不太一样啊，看着0.00%陷入了沉思。思考良久也没有发现问题，只好百度一波了，结果发现，大家都先输入数组的长度，再输入数组：
+   emmmmm这个我想的不太一样啊，看着0.00%陷入了沉思。思考良久也没有发现问题，只好百度一波了，结果发现，大家都先输入数组的长度，再输入数组：
 	
 ![](/images/posts/Java_Array_FingBigProduct/findhelp.jpg)
 
-    好吧，我再改改（现在还没在意人家为什么用的long型而不是int型）
+   好吧，我再改改（现在还没在意人家为什么用的long型而不是int型）  
 	
 ### 修改代码
 	
@@ -147,7 +147,7 @@ public class Main{
 
 ![](/images/posts/Java_Array_FingBigProduct/result4.jpg)
 
-惊了！突然意识到为什么要用long型了，马上改。
+惊了！突然意识到为什么要用long型了，马上改。  
 
 ### 三改代码
 
