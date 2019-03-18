@@ -36,5 +36,5 @@ tag: Java
 
 
 
-转载请注明原地址:[KK's Blog](http://www.xiaobaozi.xyz)
+转载请注明原地址:[KK's Blog](http://www.inankai.top)
 
