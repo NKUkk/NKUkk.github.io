@@ -99,6 +99,7 @@ public class Main{
 
 
    * 知识点一：**StringBuffer和String之间的转换**  
+   
 >StringBuffer ----> String  
 
 ```
@@ -114,7 +115,7 @@ StringBuffer s2 = new StringBuffer();
 s2.append(s);  
 ```  
 
->String ----> StringBuffer 
+>String ----> StringBuffer  
  
 ```
 StringBuffer s = new StringBuffer("java");  
