@@ -100,6 +100,7 @@ public class Main{
 
    * 知识点一：**StringBuffer和String之间的转换**  
 >StringBuffer ----> String  
+
 ```
 String s = "hello";  
 **//不能直接把string的值赋给StringBuffer**  
@@ -111,7 +112,7 @@ StringBuffer s1 = new StringBuffer(s);
 //方式二：用append方法  
 StringBuffer s2 = new StringBuffer();  
 s2.append(s);  
-``` 
+```  
 
 >String ----> StringBuffer 
  
