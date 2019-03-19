@@ -11,8 +11,7 @@ tag: Java
  
 ### 题目
 
-  牛牛有一个由小写字母组成的字符串s,在s中可能有一些字母重复出现。比如在"banana"中,字母'a'和字母'n'分别出现了三次和两次。  
-  但是牛牛不喜欢重复。对于同一个字母,他只想保留第一次出现并删除掉后面出现的字母。请帮助牛牛完成对s的操作。
+  牛牛有一个由小写字母组成的字符串s,在s中可能有一些字母重复出现。比如在"banana"中,字母'a'和字母'n'分别出现了三次和两次,但是牛牛不喜欢重复。对于同一个字母,他只想保留第一次出现并删除掉后面出现的字母。请帮助牛牛完成对s的操作。
 
   **输入描述**         
 
@@ -27,12 +26,12 @@ tag: Java
 
   **示例**
   
-```
-输入：  
+
+>输入：  
 >banana  
-输出：
+>输出：  
 >ban
-```
+
 
 ### 分析         
   
@@ -99,9 +98,8 @@ public class Main{
 ### 知识点
 
 
-    * 知识点一  
-		**StringBuffer和String之间的转换**  
-			* StringBuffer ----> String  
+   * 知识点一：**StringBuffer和String之间的转换**  
+>StringBuffer ----> String  
 ```
 String s = "hello";  
 **//不能直接把string的值赋给StringBuffer**  
@@ -113,9 +111,10 @@ StringBuffer s1 = new StringBuffer(s);
 //方式二：用append方法  
 StringBuffer s2 = new StringBuffer();  
 s2.append(s);  
-```
+``` 
 
-			*String ----> StringBuffer  
+>String ----> StringBuffer 
+ 
 ```
 StringBuffer s = new StringBuffer("java");  
 
@@ -128,8 +127,8 @@ String s2 = s3.toString();
 System.out.println("s2: " + s2);  
 ```
 
-	* 知识点二  
-		**StringBuffer类的常用方法**  
+* 知识点二：**StringBuffer类的常用方法**  
+	
 ```
 StringBuffer s = new StringBuffer("Hello ");
 
@@ -150,7 +149,6 @@ s.setCharAt(1,'p');//索引为1处的字符修改成p，此时变为dponew olled
 s.deleteCharAt(2);//删除索引为2处的字符，此时变为dpnew olledH
 
 ```
-
 
 
 
