@@ -10,7 +10,7 @@ tag: Android
 Android小知识点。
 
 
-### Activity间的数据传递  
+### 1.Activity间的数据传递  
 
 #### 将UserActivity中点击的listView中的id信息传递到DetailActivity，则UserActivity.java中代码如下：
 
@@ -40,7 +40,7 @@ Intent i=getIntent();
 Log.e("获得的id",""+i.getStringExtra("id"));
 ```
 
-### 去掉标题栏  
+### 2.去掉标题栏  
 
 #### 方法一：  
 
