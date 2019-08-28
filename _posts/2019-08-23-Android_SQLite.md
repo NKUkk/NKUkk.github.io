@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android基础知识（一）————SQLite数据库连接与使用
+title: Android基础知识（一）——SQLite数据库连接与使用
 date: 2019-08-23 
 tag: Android 
 ---   
