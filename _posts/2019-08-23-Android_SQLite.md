@@ -15,28 +15,28 @@ tag: Android
 ```
 public class MySqliteHelper extends SQLiteOpenHelper {
     public MySqliteHelper(Context context){
-		//user.db数据库名称
+	//user.db数据库名称
         super((Context) context,"user.db",null,3);
     }
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
 		
-		//创建表
+	//创建表
         sqLiteDatabase.execSQL("Create table if not exists user(username String primary key,password String)");
         sqLiteDatabase.execSQL("Create table if not exists userinfo(id String primary key,name String," +
                 "sex String,age String,date String,phonenum String,address String)");
 		
-		//cursor是行集合，用于存储查询获得的结果，cursor后只可用rawQuery()，不可以execSQL()
+	//cursor是行集合，用于存储查询获得的结果，cursor后只可用rawQuery()，不可以execSQL()
         Cursor c=sqLiteDatabase.rawQuery("select * from user where username=?",new String[]{"admin"});
         
-		//行集合中的行的数量
-		if(c.getCount()==0) {
+	//查询结果的数量
+	if(c.getCount()==0) {
             sqLiteDatabase.execSQL("insert into user values('admin','123456')");
         }
     }
     
-	//重写onUpgrade方法
+    //重写onUpgrade方法
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
 
@@ -48,16 +48,16 @@ public class MySqliteHelper extends SQLiteOpenHelper {
 
 ```
 public class MainActivity extends AppCompatActivity{
-	//定义编辑框变量
+    //定义编辑框变量
     private EditText editText1;
     private EditText editText2;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-		//去掉标题栏
-		//方法一：将上面的AppCompatActivity改成Activity
-		//方法二：
+	//去掉标题栏
+	//方法一：将上面的AppCompatActivity改成Activity
+	//方法二：
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         if(getSupportActionBar()!=null){
             getSupportActionBar().hide();
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity{
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
                 switch (motionEvent.getAction()) {
-					//按钮被按下
+		    //按钮被按下
                     case MotionEvent.ACTION_DOWN:
                         button1.setBackgroundColor(Color.parseColor("#ff0000"));
                         //判断数据库是否打开
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity{
                         else
                             Log.e("数据库状态", "CLOSE");
 
-						//查询数据库中是否有输入的用户名和密码
+			//查询数据库中是否有输入的用户名和密码
                         Cursor c = db.rawQuery("select * from user where username=? and password=?",
                                 new String[]{editText1.getText().toString(),editText2.getText().toString()});
 
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity{
                         Log.e("筛选结果是否为空",""+(c==null));
                         Log.e("数据库筛选结果数目", "" + c.getCount());
                         
-						//判断查询中是否有记录
+			//判断查询中是否有记录
                         if (c != null && c.getCount() >= 1) {
                             //跳转到用户界面
                             Intent intent = new Intent(MainActivity.this, UserActivity.class);
@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity{
                             Toast.makeText(MainActivity.this, "账号或密码错误！", Toast.LENGTH_SHORT).show();
                         }
                         break;
-					//按钮没有被按下
+		    //按钮没有被按下
                     case MotionEvent.ACTION_UP:
                         button1.setBackgroundColor(Color.parseColor("#8a2be2"));
                         break;
