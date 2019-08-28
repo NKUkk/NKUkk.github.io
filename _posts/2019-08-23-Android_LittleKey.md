@@ -10,9 +10,9 @@ tag: Android
 Android小知识点。
 
 
-## Activity间的数据传递  
+### Activity间的数据传递  
 
-### 将UserActivity中点击的listView中的id信息传递到DetailActivity，则UserActivity.java中代码如下：
+#### 将UserActivity中点击的listView中的id信息传递到DetailActivity，则UserActivity.java中代码如下：
 
 ```
 //listview中item的点击监听事件
@@ -32,7 +32,7 @@ Android小知识点。
 
 ```  
 
-### 在DetailActivity.java中代码如下：  
+#### 在DetailActivity.java中代码如下：  
 
 ```
 //使用getStringExtra()方法获得字符串，还有类似的方法获得数值等。其中，方法的参数时为传递值的起的名称。
@@ -40,9 +40,9 @@ Intent i=getIntent();
 Log.e("获得的id",""+i.getStringExtra("id"));
 ```
 
-## 去掉标题栏  
+### 去掉标题栏  
 
-### 方法一：  
+#### 方法一：  
 
 ```
 public class DetailActivity extends AppCompatActivity
@@ -52,7 +52,7 @@ public class DetailActivity extends AppCompatActivity
 public class DetailActivity extends Activity
 ```  
 
-### 方法二：  
+#### 方法二：  
 
 ```
 @Override
@@ -67,7 +67,7 @@ protected void onCreate(Bundle savedInstanceState) {
 }
 ```  
 
-### 方法三：  
+#### 方法三：  
 
 ```
 //在styles.xml文件中，将
