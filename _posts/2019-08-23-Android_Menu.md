@@ -217,7 +217,7 @@ public class UserActivity extends AppCompatActivity {
 </resources>
 
 ```
-![](/images/posts/Android_Menu/menu2.jpg)
+![](/images/posts/Android_Menu/menu3.jpg)
 
 
 
