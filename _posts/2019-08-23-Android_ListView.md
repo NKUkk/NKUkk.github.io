@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android基础知识（二）————动态获得listView的高度
+title: Android基础知识（二）——动态获得listView的高度
 date: 2019-08-23 
 tag: Android 
 ---   
@@ -169,9 +169,11 @@ public class ListViewAdapter extends BaseAdapter {
 </RelativeLayout>
 ```  
 
-******************
-此时，可以在Activity页面上显示listView，若不是使用的滚动布局，则已成功使用listView。但由于Activity的xml文件使用的ScrollView布局，导致listView只能显示一行的宽度。  
-******************
+************************************************************************************
+此时，可以在Activity页面上显示listView，若不是使用的滚动布局，则已成功使用listView。但由于Activity的xml文件使用的ScrollView布局，导致listView只能显示一行的宽度。   
+
+************************************************************************************  
+
 ## 动态获得listView的高度
 ```
 public class DetailActivity extends Activity {
@@ -336,6 +338,4 @@ public class DetailActivity extends Activity {
 
 <p> </p>  
   
-*****************
-
 转载请注明原地址:[KK's Blog](http://www.inankai.top)
