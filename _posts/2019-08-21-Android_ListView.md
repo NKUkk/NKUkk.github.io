@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Android基础知识（二）——动态获得listView的高度
-date: 2019-08-23 
+date: 2019-08-21 
 tag: Android 
 ---   
 
