@@ -1,0 +1,21 @@
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>/* Clock */
+.pane-when .clock { width: 460px; /*	height: 430px;*/margin: 0 auto; margin-top: 50%; position: relative; }
+.pane-when .content {  top: 50%; left: 0; right: 0; }
+.pane-when .clock { margin-top: -60px; }
+/* Mask to disable click */
+.pane-when .clock .block:last-child .digit:after { display: none; }
+.pane-when .clock .elem-center { display: inline-block; position: relative; text-align: center; width: 100%; top: 0; bottom: 0; }
+.pane-when .clock .elem-center .digit { position: relative; font-size: 240px; letter-spacing: -0.02em; line-height: 1; font-family: 'Opensans'; font-weight: 500; color: #49b1f5; display: block; width: auto; }
+.pane-when .clock .elem-center .txt { position: absolute; right: auto; letter-spacing: 0em; top: 1.4em; text-transform: uppercase; font-family: 'Opensans'; font-weight: bold; font-size: 24px; width: auto; }
+.pane-when .clock .elem-bottom { position: relative; width: 100%; /*	text-transform: uppercase;*/
+font-family: 'Opensans'; font-weight: bold; font-size: 24px; color: #49b1f5; text-align: center; }
+.pane-when .clock .elem-bottom .thin { font-weight: 100; }
+.pane-when .clock .elem-bottom:after, .pane-when .clock .elem-bottom:before { position: absolute; content: ''; border-bottom: 1px solid #49b1f5; height: 1px; bottom: 17px; }
+.pane-when .clock .elem-bottom:before { right: 0; left: 75%; }
+.pane-when .clock .elem-bottom:after { left: 0; right: 75%; }
+.pane-when .clock .elem-bottom .deco:after, .pane-when .clock .elem-bottom .deco:before { position: absolute; content: ''; /*	background: #49b1f5;*/
+border: 1px solid #49b1f5; width: 20px; height: 120px; bottom: 17px; }
+.pane-when .clock .elem-bottom .deco:before { left: 0; right: auto; border-right: none; border-bottom: none; }
+.pane-when .clock .elem-bottom .deco:after { right: 0; left: auto; border-left: none; border-bottom: none; }
+.pane-when footer { padding: 16px 48px; margin-top: 32px; }
+.pane-when footer p { color: #49b1f5; text-align: center; font-family: 'Opensans'; }
